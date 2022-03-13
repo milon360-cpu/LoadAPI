@@ -94,3 +94,11 @@ function errorMassage()
      })
      
  }
+
+//  Clear button 
+const clearBtn = document.getElementById('clear-btn');
+clearBtn.addEventListener('click',function()
+{
+    searchingValue.value = '';
+    location.reload();
+})
