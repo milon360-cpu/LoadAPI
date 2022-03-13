@@ -44,7 +44,7 @@
 }
 .search-container input
 {
-    width: 55%;
+    width: 60%;
     height: 40px;
     border-radius: 5px;
     outline: none;
@@ -170,10 +170,20 @@
 
 
 /* Responsive  */
+
 @media screen and (max-width:965px)
 {
     .contact
     {
         margin: 20px 0px;
+       
+    }
+}
+
+@media screen and (max-width:450px)
+{
+    .search-container input 
+    {
+        width: 40%;
     }
 }
