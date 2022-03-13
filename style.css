@@ -1,0 +1,169 @@
+/* common code start here */
+    *
+    {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    html 
+    {
+        scroll-behavior: smooth;
+    }
+/* common code ned here  */
+/* Nav menu style start here  */
+.nav-menu a
+{
+    color: white;
+    margin: 0px 10px;
+}
+.logo
+{
+    color: white;
+    letter-spacing: 5px;
+    font-size: 35px;
+    transition: .3s;
+}
+.logo:hover 
+{
+    color: goldenrod;
+}
+.nav-menu a:hover
+{
+  
+    color: goldenrod;
+
+}
+/* Nav menu style end here  */
+
+/* Search container style start here  */
+.search-container 
+{
+    background-color: #e1e4e7;
+    border-radius: 5px;
+    text-align: center;
+}
+.search-container input
+{
+    width: 60%;
+    height: 43px;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px 10px;
+    border: 1px solid lightgray;
+    transition: .5s;
+}
+
+
+/* Search Container Style End here  */
+/* Food Image style start here  */
+.food-img 
+{
+    width: 100%;
+}
+.foodContainer 
+{
+    width: 200px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.144);
+    padding: 10px;
+    border-radius: 3px;
+    transition: .5s;
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
+}
+.foodContainer:hover 
+{
+    transform: scale(1.1);
+    /* border: 1px solid tomato; */
+}
+#food-item
+{
+    /* padding: 50px 0px; */
+    margin-top: 50px;
+    background-color: goldenrod;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    border-radius: 2px;
+}
+/* Food Image style end here  */
+
+/* Footer content  start here */
+.footer-content 
+{
+    background-color: #212529;
+    padding: 20px 30px;
+    border-radius: 3px;
+
+}
+.footer-content i 
+{
+    color: rgba(156, 154, 154, 0.952);
+    margin: 0 10px;
+    cursor: pointer;
+    transition: .3s;
+
+}
+.footer-content a
+{
+    text-decoration: none;
+
+}
+.footer-content i:hover 
+{
+    color: goldenrod;
+  
+}
+/* Footer content end here  */
+
+/* Meat List Style start here  */
+.meat-list span 
+{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 25px;
+}
+.meat-list ul li
+{
+ color: rgba(255, 255, 255, 0.486) ;
+ list-style:disc;
+ cursor: pointer;
+ transition: .3s;
+}
+.meat-list ul li:hover
+{
+    color: goldenrod;
+}
+.contact 
+{
+    color: rgba(255, 255, 255, 0.568);
+}
+#food-details
+{
+    margin-top: 5%;
+}
+.item-details 
+{
+    background-color: #e1e4e778;
+    padding: 30px;
+}
+.item-details img 
+{
+    width: 30%;
+    text-align: center;
+    border-radius: 2px;
+}
+.item-details i
+{
+    margin-right: 10px;
+    color: green;
+}
+.item-details li 
+{
+   list-style: none;
+
+}
+.item-details p
+{
+    text-align: justify;
+    margin-top: 2%;
+}
